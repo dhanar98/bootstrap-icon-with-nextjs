@@ -86,4 +86,4 @@ Repeat **Step-4**
 
 Smile please 😁
 
-Now the Issue are Solved.
+Now the Issues are Solved.
