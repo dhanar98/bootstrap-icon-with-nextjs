@@ -7,7 +7,8 @@ Clone  project to run this commands
 
 **`step-1:`**
 
-clone a 
+clone a
+
 [![github](https://img.shields.io/badge/github-ffd200?style=for-the-badge&logo=github&logoColor=black)](https://github.com/) 
 project
 
@@ -19,6 +20,7 @@ git clone https://github.com/dhanar98/bootstrap-icon-with-nextjs.git
 **`step-2:`**
 
 build a 
+
 [![nextjs](https://img.shields.io/badge/next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/) 
 project 
 ```bash
@@ -29,6 +31,7 @@ npm run build
 **`step-3:`**
   
 start a 
+
 [![nextjs](https://img.shields.io/badge/next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/) 
 project
 
