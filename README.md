@@ -7,7 +7,7 @@ Clone  project to run this commands
 
 **`step-1:`**
 
-clone a
+clone a 
 
 [![github](https://img.shields.io/badge/github-ffd200?style=for-the-badge&logo=github&logoColor=black)](https://github.com/) 
 
@@ -17,20 +17,33 @@ project
 git clone https://github.com/dhanar98/bootstrap-icon-with-nextjs.git
 ```
 
-
 **`step-2:`**
+
+Install
+
+[![npm](https://img.shields.io/badge/npm-cc0a00?style=for-the-badge&logo=npm&logoColor=black)](https://npm.org/) 
+
+Dependencies
+
+```bash
+npm install
+```
+
+
+**`step-3:`**
 
 build a 
 
 [![nextjs](https://img.shields.io/badge/next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/) 
 
 project 
+
 ```bash
 npm run build
 ```
 
 
-**`step-3:`**
+**`step-4`**
   
 start a 
 
@@ -59,7 +72,7 @@ module.exports = {
   ],
 }
 ```
-Repeat **Step-3**
+Repeat **Step-4**
 
 **(OR)**
 
@@ -69,7 +82,7 @@ if it throws an issue already running in port 0:0:0:3000 port
 lsof -ti:3000 | xargs kill -9
 ```
 
-Repeat **Step-3**
+Repeat **Step-4**
 
 Smile please 😁
 
