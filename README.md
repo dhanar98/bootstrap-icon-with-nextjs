@@ -1,34 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 🔗 MEDIUM STORY LINK
+[![MEDIUM](https://img.shields.io/badge/how_to_add_bootstrap_icons_in_nextjs-000?style=for-the-badge&logo=MEDIUM&logoColor=white)](https://medium.com/@dhanar98/how-to-add-bootstrap-icons-in-next-js-c691a21e7e4c)
 
-## Getting Started
+## ➡️ Clone My Project
 
-First, run the development server:
+Clone  project to run this commands
+
+**`step-1:`**
+
+clone a 
+[![github](https://img.shields.io/badge/github-ffd200?style=for-the-badge&logo=github&logoColor=black)](https://github.com/) 
+project
 
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/dhanar98/bootstrap-icon-with-nextjs.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+**`step-2:`**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+build a 
+[![nextjs](https://img.shields.io/badge/next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/) 
+project 
+```bash
+npm run build
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+**`step-3:`**
+  
+start a 
+[![nextjs](https://img.shields.io/badge/next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/) 
+project
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm  start
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+(or)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+npx next -p [portnumber]
+E.X: npx next -p 1998
+```
 
-## Deploy on Vercel
+## 🥺 Issue:
+If the project throws Es-lint issue while starting a project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Add the code in `next.config.js` file
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+module.exports = {
+  extends: [
+    'plugin:@next/next/recommended',
+  ],
+}
+```
+Repeat **Step-3**
+
+**(OR)**
+
+if it throws an issue already running in port 0:0:0:3000 port
+
+```
+lsof -ti:3000 | xargs kill -9
+```
+
+Repeat **Step-3**
+
+Smile please 😁
+
+Now the Issue are Solved.
